@@ -3939,7 +3939,7 @@ div.ppt {
 	color: transparent;
 	border-radius: 10px;
 	color: #ffffff;
-	background: #e85242;
+	background: #bfe133;
 }
 
 @media (min-width: 768px) {
@@ -3959,7 +3959,7 @@ div.ppt {
 }
 
 #toTop:after {
-	color: #ffffff;
+	color: blue;
 	content: "\f106";
 	font-size: 16px;
 	line-height: 50px;
@@ -13147,7 +13147,7 @@ article.comment:before {
 	height: 1px;
 	width: 100vw;
 	transform: translateX(-50%);
-	background-color: #e4e4e4;
+	/*background-color: #e4e4e4;*/
 }
 
 @media (min-width: 500px) {
