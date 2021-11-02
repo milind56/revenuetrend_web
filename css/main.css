@@ -12336,7 +12336,7 @@ body.active-side-header.slide-right .page_header_side {
   .header_white .toggle_menu span,
   .header_white .toggle_menu span:before,
   .header_white .toggle_menu span:after {
-		background-color: #3a3d44;
+		background-color: #ffffff;  /*#3a3d44;*/
 	}
 
 	.intro_section + .page_header_wrapper .toggle_menu span,
@@ -12348,7 +12348,7 @@ body.active-side-header.slide-right .page_header_side {
 	.intro_section + .page_header_wrapper .affix .toggle_menu span,
   .intro_section + .page_header_wrapper .affix .toggle_menu span:before,
   .intro_section + .page_header_wrapper .affix .toggle_menu span:after {
-		background-color: #3a3d44;
+		background-color:#ffffff; /*#3a3d44;*/
 	}
 
 	.intro_section + .page_header_wrapper .affix .toggle_menu.mobile-active span,
@@ -12399,7 +12399,7 @@ body.active-side-header.slide-right .page_header_side {
   .toggle_menu span, .page_toplogo
   .toggle_menu span:before, .page_toplogo
   .toggle_menu span:after {
-		background-color: #3a3d44;
+		background-color: #ffffff; /*#3a3d44;*/
 	}
 
 	.toggle_menu:before,
