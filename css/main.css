@@ -677,8 +677,9 @@ input[type=radio] {
 	line-height: 1.3;
 	display: block;
 	padding: 18px 60px 19px 20px;
-	background: #e85242;
-	color: #ffffff;
+	background: #bfe133; /*#e85242;*/
+	color: blue; /*#ffffff;*/
+	font-weight: 600;
 	border-radius: 10px 10px 0 0;
 	word-wrap: break-word;
 }
@@ -692,7 +693,8 @@ input[type=radio] {
 .panel-heading .panel-title > a.collapsed:hover,
 .panel-heading .panel-title > a:hover {
 	color: #ffffff;
-	background: #e85242;
+	background: blue; /* #e85242;*/
+	font-weight: 600;
 }
 
 .panel-heading .panel-title > a.collapsed:hover i, .panel-heading .panel-title > a.collapsed:hover:after,
@@ -721,9 +723,9 @@ input[type=radio] {
 	height: 60px;
 	line-height: 60px;
 	font-size: 20px;
-	font-weight: 100;
+	font-weight: 300;
 	transition: all 0.2s ease-in-out 0s;
-	color: #fff;
+	color: blue;
 }
 
 .panel-heading .panel-title > a.collapsed:after {
@@ -5763,7 +5765,7 @@ body.boxed {
 }
 
 .with_padding {
-	padding: 20px;
+	padding:0px; /*20px;*/
 }
 
 @media (min-width: 400px) {
@@ -14967,7 +14969,7 @@ widget_pages
 }
 
 .teaser[class*="_bg_color"], .teaser[class*="with_"] {
-	padding: 30px 20px;
+	padding: 10px 5px; /*30px 20px;*/
 }
 
 @media (min-width: 400px) {
