@@ -14969,18 +14969,18 @@ widget_pages
 }
 
 .teaser[class*="_bg_color"], .teaser[class*="with_"] {
-	padding: 10px 5px; /*30px 20px;*/
+	padding: 5px 0.5px; /*30px 20px;*/
 }
 
 @media (min-width: 400px) {
 	.teaser[class*="_bg_color"], .teaser[class*="with_"] {
-		padding: 40px;
+		padding: 10px;
 	}
 }
 
 @media (min-width: 1600px) {
 	.teaser[class*="_bg_color"].big-padding, .teaser[class*="with_"].big-padding {
-		padding: 50px;
+		padding: 10px;
 	}
 }
 
