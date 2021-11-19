@@ -1353,7 +1353,7 @@ input[type=radio] {
 .vertical-tabs .nav > li.active a,
 .vertical-tabs .nav > li > a:hover {
 	background: #e85242;
-	color: #ffffff;
+	color: blue;
 }
 
 .vertical-tabs.color2 .nav > li.active a,
@@ -1363,7 +1363,7 @@ input[type=radio] {
 
 .vertical-tabs.color3 .nav > li.active a,
 .vertical-tabs.color3 .nav > li > a:hover {
-	background: #fcb315;
+	background: #bfe133;
 }
 
 .vertical-tabs.color4 .nav > li.active a,
@@ -5073,8 +5073,8 @@ header [class*="col-"] {
 
 @media (min-width: 1200px) {
 	.container-fluid {
-		padding-right: 60px;
-		padding-left: 60px;
+		padding-right: 82px;
+		padding-left: 82px;
 	}
 }
 
@@ -11045,7 +11045,7 @@ body.active-side-header.slide-right .page_header_side {
 @media (min-width: 1200px) and (max-width: 1599px) {
 	.section_intro_overlap .teaser[class*="_bg_color"],
   .section_intro_overlap .teaser[class*="with_"] {
-		padding: 30px;
+		padding: 15px;
 	}
 
 	.section_intro_overlap .teaser_icon.thick_border_icon[class*="_bg_color"].big_wrapper,
@@ -14249,7 +14249,7 @@ widget_pages
 	font-family: 'FontAwesome';
 	font-size: 14px;
 	content: "\f00c";
-	color: #f3702b;
+	color: #bfe133;
 	position: absolute;
 	left: 0;
 	top: 6px;
