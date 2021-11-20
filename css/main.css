@@ -11803,7 +11803,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.intro_section.all-scr-cover .slide_description_wrapper {
-		padding: 10% 30px;
+		padding: 2% 30px;
 	}
 
 	.intro_section.bottom-overlap-teasers .slide_description_wrapper {
@@ -11812,6 +11812,7 @@ body.active-side-header.slide-right .page_header_side {
 
 	.intro_section.page_mainslider .flex-direction-nav a {
 		top: calc(50% - 105px);
+		margin-top:60px;
 	}
 
 	.transparent_wrapper + .page_mainslider .slide_description_wrapper {
