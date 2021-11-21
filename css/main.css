@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400i|Ubuntu:300,300i,400,400i,500");
+@import url("https://fonts.googleapis.com/css?family=Josefin Sans:400,400i|Josefin Sans:300,300i,400,400i,500");
 /**
 *** Table Of Contents
 *
@@ -244,7 +244,7 @@ Border colors for elements in color section: rgba(255, 255, 255, 0.23)
 	color: inherit;
 	font-weight: 500;
 	font-size: 14px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
@@ -373,7 +373,7 @@ select,
 	font-weight: 400;
 	border-radius: 10px;
 	border: 1px solid rgba(120, 120, 120, 0.5);
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 input[type="text"] + .theme_button,
@@ -669,7 +669,7 @@ input[type=radio] {
 	letter-spacing: 0;
 	padding: 0;
 	position: relative;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .panel-heading .panel-title > a {
@@ -932,7 +932,7 @@ input[type=radio] {
 	font-weight: 500;
 	margin-bottom: 5px;
 	font-size: 14px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 	margin-right: 50px;
 }
@@ -969,7 +969,7 @@ input[type=radio] {
 	right: 0;
 	top: -29px;
 	font-size: 14px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 500;
 }
 
@@ -1024,7 +1024,7 @@ input[type=radio] {
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 500;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav-unstyled .active a {
@@ -1168,7 +1168,7 @@ input[type=radio] {
 	position: relative;
 	z-index: 1;
 	font-size: 12px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 	font-weight: 500;
 	padding: 10px 20px;
@@ -1600,7 +1600,7 @@ td .media-body {
 	padding: 15px 30px;
 	margin-bottom: 10px;
 	font-size: 18px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .alert strong {
@@ -1768,7 +1768,7 @@ html {
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.875rem;
@@ -1782,7 +1782,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
 	line-height: 1.1;
 	margin-top: 1.1em;
@@ -2275,7 +2275,7 @@ ol.list3 {
 button,
 input[type="submit"] {
 	position: relative;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -2591,7 +2591,7 @@ p > i + [class*="rt-icon"] {
 	font-weight: 500;
 	text-transform: uppercase;
 	font-size: 14px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .more-link:after,
@@ -4046,7 +4046,7 @@ div.ppt {
 
 .countdown-amount {
 	display: block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 28px;
 	line-height: 1;
 	font-weight: 400;
@@ -4076,7 +4076,7 @@ div.ppt {
 	color: #3a3d44;
 	font-size: 12px;
 	text-transform: uppercase;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .countdown-descr {
@@ -5935,7 +5935,7 @@ body.boxed {
 strong.big {
 	font-size: 24px;
 	font-weight: 400;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 /* borders, colors and backgrouns */
@@ -6766,7 +6766,7 @@ a.underline-link {
 }
 
 .small-text {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 500;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -7662,7 +7662,7 @@ a.underline-link {
 	color: #3a3d44;
 	text-align: left;
 	font-size: 34px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 500;
 }
 
@@ -7681,7 +7681,7 @@ a.underline-link {
 	font-weight: 400;
 	text-transform: uppercase;
 	display: block;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	letter-spacing: 0.02em;
 	margin-top: 2px;
 	margin-left: 2px;
@@ -11696,7 +11696,7 @@ body.active-side-header.slide-right .page_header_side {
 .intro_section .slide_description {
 	font-size: 20px;
 	line-height: 1.5em;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .intro_section .slide_description > * {
@@ -11924,7 +11924,7 @@ body.active-side-header.slide-right .page_header_side {
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Desktop menu - (min 992px) styles */
@@ -12652,7 +12652,7 @@ body.active-side-header.slide-right .page_header_side {
 	font-weight: 500;
 	line-height: 0.8;
 	margin-bottom: 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .not_found + h1 {
@@ -12797,7 +12797,7 @@ h4.entry-title {
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .entry-header .entry-meta {
@@ -13228,11 +13228,11 @@ article.comment:before {
 	line-height: 1.8em;
 	text-transform: uppercase;
 	font-weight: 400;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .comment-meta .author_url {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 18px;
 	line-height: 1;
 	font-weight: 400;
@@ -13477,7 +13477,7 @@ article.comment:before {
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #3a3d44;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 #isotope_filters a.selected,
@@ -14156,7 +14156,7 @@ widget_pages
 
 .widget_recent_entries a,
 .widget_recent_posts a {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
 }
 
@@ -14334,7 +14334,7 @@ widget_pages
 	background-color: #03a8cb;
 	display: inline-block;
 	border-radius: 10px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .widget_tag_cloud a:hover, .widget_tag_cloud a:focus, .widget_tag_cloud a:active,
@@ -14415,7 +14415,7 @@ widget_pages
 	line-height: 1;
 	font-weight: 400;
 	font-size: 24px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	padding: 18px 0;
 	text-align: center;
 	color: #ffffff;
@@ -14434,7 +14434,7 @@ widget_pages
 	font-weight: 500;
 	text-transform: uppercase;
 	padding: 23px 5px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .widget_calendar thead th:first-child {
@@ -14741,7 +14741,7 @@ widget_pages
 	background-color: #fff;
 	border: 1px solid #e4e4e4;
 	border-radius: 10px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .apsc-facebook-icon .social-icon .fa {
