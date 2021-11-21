@@ -408,7 +408,7 @@ function windowLoadInit() {
 
 	//toTop
 	if (jQuery().UItoTop) {
-		jQuery().UItoTop({ easingType: 'easeInOutQuart' });
+		jQuery().UItoTop({ easingType: 'easeInOutQuart'});
 	}
 
 	//parallax

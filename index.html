@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animations.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<!-- <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Josefin Sans'>-->
 	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
 	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -90,7 +91,7 @@
 			<!-- Slider -->
 			<section class="intro_section page_mainslider ds all-scr-cover bottom-overlap-teasers" style="display: block;">
 				<div class="flexslider" data-dots="true" data-nav="true" >
-					<ul class="slides" style="height: 400px;">
+					<ul class="slides" style="height: 420px;">
 						<li>
 							<div class="slide-image-wrap"> <img src="images/slider/Home_page_02.jpg" alt="" /> </div>
 							<div class="container">
@@ -116,6 +117,75 @@
 						</li>
 						<li>
 							<div class="slide-image-wrap"> <img src="images/slider/Home_page_05.jpg" alt="" /> </div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper" style="margin-top: 0px;">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInRight"><br></div>
+												<div class="intro-layer" data-animation="fadeInLeft">
+													<h3> <span class="highlight3" style="color: #234568;">Solutions for...</span></h3>
+													<h2 style="color: #3e3eff;">Medical Billing in <br>Healthcare Industry</h2>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li>
+							<div class="slide-image-wrap"> <img src="images/slider/Home_page_01.jpg" alt="" /> </div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper" style="margin-top: 0px;">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInRight"><br></div>
+												<div class="intro-layer" data-animation="fadeInLeft">
+													<h3> <span class="highlight3" style="color: #234568;">Solutions for...</span></h3>
+													<h2 style="color: #3e3eff;">Medical Billing in <br>Healthcare Industry</h2>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li>
+							<div class="slide-image-wrap"> <img src="images/slider/Home_page_03.jpg" alt="" /> </div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper" style="margin-top: 0px;">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInRight"><br></div>
+												<div class="intro-layer" data-animation="fadeInLeft">
+													<h3> <span class="highlight3" style="color: #234568;">Solutions for...</span></h3>
+													<h2 style="color: #3e3eff;">Medical Billing in <br>Healthcare Industry</h2>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li>
+							<div class="slide-image-wrap"> <img src="images/slider/Home_page_04.jpg" alt="" /> </div>
 							<div class="container">
 								<div class="row">
 									<div class="col-sm-12">
@@ -528,6 +598,45 @@ Compliance driven processes</h4>
 	<script src="js/selectize.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/switcher.js"></script>
+
+
+	<script>
+		var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?13501';
+		var s = document.createElement('script');
+		s.type = 'text/javascript';
+		s.async = true;
+		s.src = url;
+		var options = {
+	  "enabled":true,
+	  "chatButtonSetting":{
+		  "backgroundColor":"#4dc247",
+		  "ctaText":"",
+		  "borderRadius":"25",
+		  "marginLeft":"0",
+		  "marginBottom":"30",
+		  "marginRight":"30",
+		  "position":"right"
+	  },
+	  "brandSetting":{
+		  "brandName":"Revenue Trend",
+		  "brandSubTitle":"Typically replies within a day",
+		  "brandImg":"https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+		  "welcomeText":"Hi there!\nHow can I help you?",
+		  "messageText":"Hello, I have a question about {{page_link}}",
+		  "backgroundColor":"#0a5f54",
+		  "ctaText":"Start Chat",
+		  "borderRadius":"25",
+		  "autoShow":false,
+		  "phoneNumber":"9527858848"
+	  }
+	};
+		s.onload = function() {
+			CreateWhatsappChatWidget(options);
+		};
+		var x = document.getElementsByTagName('script')[0];
+		x.parentNode.insertBefore(s, x);
+	</script>
+
 </body>
 
 </html>
