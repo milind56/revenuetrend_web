@@ -678,7 +678,7 @@ input[type=radio] {
 	display: block;
 	padding: 18px 60px 19px 20px;
 	background: #bfe133; /*#e85242;*/
-	color: blue; /*#ffffff;*/
+	color: #blue; /*#ffffff;*/
 	font-weight: 600;
 	border-radius: 10px 10px 0 0;
 	word-wrap: break-word;
@@ -693,7 +693,7 @@ input[type=radio] {
 .panel-heading .panel-title > a.collapsed:hover,
 .panel-heading .panel-title > a:hover {
 	color: #ffffff;
-	background: blue; /* #e85242;*/
+	background: #234568; /* #e85242;*/
 	font-weight: 600;
 }
 
