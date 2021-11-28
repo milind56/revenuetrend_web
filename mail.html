@@ -1,0 +1,72 @@
+<html>
+
+<head>
+  <title>Mail Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body style="overflow: hidden;">
+  <div>
+    <form id="form" onchange="mail(this)">
+      <label>Name</label>
+      <div class="row margin-bottom-20">
+        <div class="col-md-12 col-md-offset-0">
+          <input class="form-control" name="name" type="text">
+        </div>
+      </div>
+      <br>
+      <label>Phone</label>
+      <div class="row margin-bottom-20">
+        <div class="col-md-12 col-md-offset-0">
+          <input class="form-control" name="phone" type="text">
+        </div>
+      </div>
+      <br>
+      <label>Email</label>
+      <div class="row margin-bottom-20">
+        <div class="col-md-12 col-md-offset-0">
+          <input class="form-control" name="email" type="text">
+        </div>
+      </div>
+      <br>
+      <label>Subject</label>
+      <div class="row margin-bottom-20">
+        <div class="col-md-12 col-md-offset-0">
+          <input class="form-control" name="subject" type="text">
+        </div>
+      </div>
+      <br>
+      <label>Message</label>
+      <div class="row margin-bottom-20">
+        <div class="col-md-12 col-md-offset-0">
+          <textarea class="form-control" name="msg" type="text"></textarea>
+        </div>
+      </div>
+      <br><br>
+      <a id="send" class="btn btn-primary" style="background-color: #bfe133; color: blue; width: 100px;">Submit
+      </a>
+      
+    </form>
+  </div>
+
+  <script>
+    function mail(form) {
+      var name = form.name.value;
+      var phone = form.phone.value;
+      var email = form.email.value;
+      var subject = form.subject.value;
+      var msg = form.msg.value;
+
+      var EmailStr = "mailto:info@revenuetrendamerica.com?subject=" + subject + "&body=Name: "+name+"%0APhone:"+phone+"Email: "+email+"%0AMessage: "+msg;
+
+      document.getElementById('send').href = EmailStr;
+    }
+  </script>
+
+</body>
+
+</html>
